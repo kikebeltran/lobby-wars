@@ -33,6 +33,7 @@ And at explorer go to: http://localhost:8000/
 ---
 
 ![Architecture ](https://ekiketa.es/wp-content/uploads/2022/08/ddd-layers.png)
+
 This is one approach to DDD / Ports and Adapters / Hexagonal.
 At image, this arrows means that internal layers doesn't know external layers. Only external layers knows internal layers.
 
