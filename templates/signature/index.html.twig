@@ -1,0 +1,22 @@
+{% extends 'shared/container.html.twig' %}
+
+{% block container %}
+        <div class="dashboard__container__form-container">
+            <fieldset>
+                <form id="formCheckSignatures" action="/api/v1/first-stage" method="post">
+                    <p>
+                        Añade la firma en el siguiente campo: 
+                        <a href="/assets/files/Signaturit_Backend_Developer_test.pdf" target="_blank">
+                            <img class="help-icon" src="/assets/img/icons/help-circle-outline.svg" /> 
+                        </a>
+                    </p>
+                    <div class="form-group">
+                        <input class="form-control" type="text" name="signatures" placeholder="KN vs NVV" required />
+                    </div>
+                    <div class="form-group">
+                        <button id="btnFormCheckSignatures" class="btn" type="submit">Comprobar firmas</button>
+                    </div>
+                </form>
+            </fieldset>
+        </div>
+{% endblock %}

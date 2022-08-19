@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+<div class="dashboard__container">
+
+    <div class="dashboard__container__image">
+        <img src="/assets/img/processed.usa._.blue.284.100.png" alt="logo" />
+    </div>
+
+    <div class="dashboard__container__stage-selector">
+        <div id="firstStage">Primera fase</div> 
+        <span>|</span> 
+        <div id="secondStage">Segundo escenario</div>
+    </div>
+
+    {% block container %}{% endblock %}
+
+    <div class="dashboard__container__result"></div>
+
+</div>
+{% endblock %}
