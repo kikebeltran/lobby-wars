@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Tests\Domain;
+namespace App\Tests\Signature\Domain;
 
 use PHPUnit\Framework\TestCase;
 use LobbyWars\Signature\Domain\LobbyRole;
