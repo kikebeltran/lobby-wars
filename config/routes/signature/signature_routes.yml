@@ -1,0 +1,11 @@
+firstStage:
+    methods: [ POST ]
+    path: /first-stage
+    defaults: { auth: false }
+    controller: App\Controller\LobbyWars\ResolveWinnerSignatureController::test
+
+secondStage:
+    methods: [ POST ]
+    path: /second-stage
+    defaults: { auth: false }
+    controller: App\Controller\LobbyWars\GetMinimumSignatureToWinController::test

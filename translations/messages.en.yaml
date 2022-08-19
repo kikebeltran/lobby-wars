@@ -1,0 +1,10 @@
+GetMinimumSignatureToWinUseCase:
+    no_more_signatures_needed: No more signature needed, the hashtag signature win.
+    is_not_possible_win: Is not posible win to other signature.
+    no_signatures_with_hashtag: Any Signature has hashtag.
+ResolveWinnerSignatureUseCase:
+    wins_signature_1: Wins Signature 1
+    wins_signature_2: Wins Signature 2
+    same_value: Signature 1 ans Signature 2 has same value
+# Exceptions
+Invalid InputSignatures: Invalid InputSignatures

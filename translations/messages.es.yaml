@@ -1,0 +1,10 @@
+GetMinimumSignatureToWinUseCase:
+    no_more_signatures_needed: No hacen falta más firmas, la que tiene el hashtag ya gana.
+    is_not_possible_win: No se puede ganar a la otra firma.
+    no_signatures_with_hashtag: No hay firmas con hashtag
+ResolveWinnerSignatureUseCase:
+    wins_signature_1: Gana la primera firma
+    wins_signature_2: Gana la segunda firma
+    same_value: Hay empate, las dos firmas tienen el mismo valor
+# Exceptions
+Invalid InputSignatures: Alguna de las firmas no es correcta
